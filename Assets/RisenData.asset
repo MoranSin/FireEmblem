@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfbbe077d435c34eb8dc628ecb9da2e, type: 3}
+  m_Name: RisenData
+  m_EditorClassIdentifier: 
+  Name: Risen
+  level:
+    level: 1
+    experience: 0
+  attributes:
+    strength: 25
+    magic: 4
+    skill: 9
+    speed: 10
+    defence: 5
+    resistance: 5
+  levelUpRates:
+    strength: 0
+    magic: 0
+    skill: 0
+    speed: 0
+    defence: 0
+    resistance: 0
+  stats:
+    speed: 50
+    HP: 100
+    AttackRange: 1
+    accuracy: 0.75
+    dodge: 0.1
+    critChance: 0.1
+    critDmgMul: 1.5
